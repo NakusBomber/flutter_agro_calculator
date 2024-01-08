@@ -1,5 +1,5 @@
 import 'package:agro_calculator/agro_app.dart';
-import 'package:agro_calculator/utils/key_preferences.dart';
+import 'package:agro_calculator/models/key_preferences.dart';
 import 'package:flutter/material.dart';
 
 import 'database/interface_database.dart';

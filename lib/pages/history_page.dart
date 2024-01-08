@@ -9,7 +9,7 @@ class HistoryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: getAppBar(context, 'Історія'),
+      appBar: AgroAppBar(context: context, label: 'Історія'),
         drawer: getDrawer(context),
         body: Center(
           child: Text('history page (/history)'),

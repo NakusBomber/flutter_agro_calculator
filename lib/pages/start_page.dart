@@ -1,6 +1,6 @@
 import 'package:agro_calculator/database/interface_database.dart';
 import 'package:agro_calculator/database/shared_preferences_helper.dart';
-import 'package:agro_calculator/utils/key_preferences.dart';
+import 'package:agro_calculator/models/key_preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

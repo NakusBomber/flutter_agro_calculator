@@ -9,7 +9,7 @@ class InfoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: getAppBar(context, 'Інформація'),
+      appBar: AgroAppBar(context: context, label: 'Інформація',),
       drawer: getDrawer(context),
       body: Center(
         child: Text('info (/info)'),
