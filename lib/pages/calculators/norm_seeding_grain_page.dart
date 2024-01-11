@@ -36,13 +36,13 @@ class _NormSeedingGrainPageState extends State<NormSeedingGrainPage> {
       }
 
       result = AgroMath.normSeedingGrain(
-          culture!,
-          quality!,
-          timing!,
-          soil!,
-          freezing!,
-          cropping!,
-          stem!);
+          culture!.value,
+          quality!.value,
+          timing!.value,
+          soil!.value,
+          freezing!.value,
+          cropping!.value,
+          stem!.value);
     });
   }
 
